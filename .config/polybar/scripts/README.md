@@ -1,4 +1,4 @@
-mailin
+# mailin
 
 Для работы скрипта нужно настройть функцию "https://mail.google.com/mail/feed/atom".
 Понадобится:
