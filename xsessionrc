@@ -1,0 +1,3 @@
+#!/bin/sh
+setxkbmap us,ru «,winkeys» grp:ctrl_shift_toggle
+/home/bill/.config/polybar/launch.sh &
