@@ -33,3 +33,16 @@
     Следуя инструкциям, введите пароль приложения (код из 16 символов в желтой строке) на устройстве.
     Нажмите Готово.
 
+# system-usb-udev
+Отображать подключеные диски и флешки.
+## Настройки
+В самом полебаре модуль выглядет так:
+
+[module/system-usb-udev]
+type = custom/script
+exec = ~/.config/polybar/scripts/system-usb-$
+tail = true
+click-left = ~/.config/polybar/scripts/syste$
+click-right = ~/.config/polybar/scripts/syst$
+
+
