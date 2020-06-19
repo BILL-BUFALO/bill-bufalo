@@ -40,9 +40,13 @@
 
 [module/system-usb-udev]
 type = custom/script
+
 exec = ~/.config/polybar/scripts/system-usb-$
+
 tail = true
+
 click-left = ~/.config/polybar/scripts/syste$
+
 click-right = ~/.config/polybar/scripts/syst$
 
 
