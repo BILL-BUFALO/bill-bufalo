@@ -39,14 +39,11 @@
 В самом полебаре модуль выглядет так:
 
 ```[module/system-usb-udev]
-
 type = custom/script
-
 exec = ~/.config/polybar/scripts/system-usb-udev.sh
-
 tail = true
-
 click-left = ~/.config/polybar/scripts/system-usb-udev.sh --mount &
-click-right = ~/.config/polybar/scripts/system-usb-udev.sh --unmount &```
+click-right = ~/.config/polybar/scripts/system-usb-udev.sh --unmount &
+```
 
 
