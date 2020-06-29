@@ -1,0 +1,5 @@
+#!/bin/sh
+setxkbmap us,ru ",winkeys" grp:ctrl_shift_toggle
+#xrandr --output HDMI-2 --mode 1920x1080 --pos 0x0 --output DP-1 --mode 1920x1080 --pos 1980x0
+xrandr --output HDMI-3 --mode 1920x1080 --pos 0x0 
+/home/user/.config/polybar/launch.sh
